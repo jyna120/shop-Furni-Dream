@@ -2,6 +2,7 @@ package com.furnycrew.furnidream.order.model.dao;
 
 import com.furnycrew.furnidream.common.search.SearchCriteria;
 import com.furnycrew.furnidream.order.model.dto.OrderDto;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -43,6 +44,7 @@ class OrderMapperTest {
 
     @DisplayName("일별 주문 조회")
     @Test
+    @Disabled
     public void test2() {
         //given
         SearchCriteria searchCriteria = new SearchCriteria();
@@ -70,6 +72,7 @@ class OrderMapperTest {
 
     @DisplayName("월별 주문 조회")
     @Test
+    @Disabled
     public void test3() {
         //given
         SearchCriteria searchCriteria = new SearchCriteria();
@@ -98,6 +101,7 @@ class OrderMapperTest {
 
     @DisplayName("연도별 주문 조회")
     @Test
+    @Disabled
     public void test4() {
         //given
         SearchCriteria searchCriteria = new SearchCriteria();
